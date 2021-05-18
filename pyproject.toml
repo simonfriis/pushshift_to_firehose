@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pushshift_scraper"
+version = "0.1.0"
+description = "Retrive posts from Pushshift API and send them to AWS Firehose"
+authors = ["Simon Friis <simonf@mit.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+boto3 = "^1.17.73"
+requests = "^2.25.1"
+ratelimiter = "^1.2.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
