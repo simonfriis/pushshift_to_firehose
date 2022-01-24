@@ -51,6 +51,7 @@ if __name__ == "__main__":
     BEFORE = args['before']
     AFTER = args['after']
     SIZE = args['size']
+    FIREHOSE = args['firehose']
     NO_RESUME = args['no_resume']
     TEST = args['test']
 
